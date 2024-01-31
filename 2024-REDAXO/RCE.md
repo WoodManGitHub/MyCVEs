@@ -6,7 +6,7 @@
 - **Software Link:** https://github.com/redaxo/redaxo
 - **Version:** 5.15.1
 - **Tested on:** Kali Linux + Docker
-- **Payload:** <?php system('cat /etc/passwd'); ?>
+- **Payload:** `<?php system('cat /etc/passwd'); ?>`
 - **CVE:** Reported, waiting for CVE Number
 
 ## Description
