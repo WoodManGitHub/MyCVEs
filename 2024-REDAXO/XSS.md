@@ -6,7 +6,7 @@
 - **Software Link:** https://github.com/redaxo/redaxo
 - **Version:** 5.15.1
 - **Tested on:** Kali Linux + Docker
-- **Payload:** <script>alert('XSS')</script>
+- **Payload:** `<script>alert('XSS')</script>`
 - **CVE:** Reported, waiting for CVE Number
 
 ## Description
