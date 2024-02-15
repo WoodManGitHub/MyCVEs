@@ -7,7 +7,7 @@
 - **Version:** 5.15.1
 - **Tested on:** Kali Linux + Docker
 - **Payload:** `<?php system('cat /etc/passwd'); ?>`
-- **CVE:** Reported, waiting for CVE Number
+- **CVE:** CVE-2024-25301
 
 ## Description
 REDAXO CMS allows Remote Code Execution via the 'Template' in "/addons/structure/plugins/content/pages/templates.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the system.
