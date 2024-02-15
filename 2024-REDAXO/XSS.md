@@ -7,7 +7,7 @@
 - **Version:** 5.15.1
 - **Tested on:** Kali Linux + Docker
 - **Payload:** `<script>alert('XSS')</script>`
-- **CVE:** Reported, waiting for CVE Number
+- **CVE:** CVE-2024-25300
 
 ## Description
 The 'Name' section in the Template section of the REDAXO CMS is vulnerable to Cross-Site Scripting Attacks. REDAXO is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
