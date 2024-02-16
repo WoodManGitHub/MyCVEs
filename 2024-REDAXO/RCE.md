@@ -16,6 +16,6 @@ REDAXO CMS allows Remote Code Execution via the 'Template' in "/addons/structure
 1. Log in as an administrator.
 2. Navigate to the Templates page.
 3. Edit the Default page.
-4. Enter <?php system("cat /etc/passwd"); ?> in the Template field.
+4. Enter `?php system("cat /etc/passwd"); ?>` in the Template field.
 5. Return to Structure and create a new Article, selecting Default as the Template.
 6. View the page.
