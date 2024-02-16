@@ -15,6 +15,6 @@ The 'Name' section in the Template section of the REDAXO CMS is vulnerable to Cr
 ## Proof of Concept
 1. Log in as an administrator.
 2. Navigate to the Templates page.
-3. Create a new template and enter <script>alert('XSS')</script> in the Name field.
+3. Create a new template and enter `<script>alert('XSS')</script>` in the Name field.
 4. Return to Structure and create a new Article, selecting the template created in step 3.
 5. View the page.
