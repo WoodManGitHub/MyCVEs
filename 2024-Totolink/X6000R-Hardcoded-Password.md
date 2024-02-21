@@ -7,7 +7,7 @@
 - **Version:** V9.4.0cu.852_B20230719
 - **Tested on:** 2024/02/02
 - **Payload:** `john --format=md5crypt --wordlist=/usr/share/wordlists/rockyou.txt etc/shadow`
-- **CVE:** Reported, waiting for CVE Number
+- **CVE:** CVE-2024-1661
 
 ## Description
 TOTOLINK X6000R V9.4.0cu.852_B20230719 was discovered to contain a hardcoded password for root stored in /etc/shadow.
